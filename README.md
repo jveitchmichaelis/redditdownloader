@@ -14,6 +14,6 @@ The script searches for either imgur galleries, which it will scrape, or i.imgur
 Usage
 =====
 
-python reddit\_downloader.py _username_
+    python reddit\_downloader.py _username_
 
 
