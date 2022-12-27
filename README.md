@@ -3,6 +3,13 @@ redditdownloader
 
 Simple python/praw based reddit image downloader.
 
+Features:
+
+* Query and stratify by subreddit/username
+* Handles imgur galleries and direct image links
+* Hash-based de-duplication
+* Per-submission metadata download
+
 Simply call the script with a username or subreddit and it will process all submissions and download them to a folder (nominally `downloads/<query_type>/<query>` e.g. `downloads/subreddit/casualuk`.  This script requires a few libraries like PRAW.
 
 ```bash
